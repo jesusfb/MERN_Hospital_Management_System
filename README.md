@@ -34,8 +34,21 @@ This is a full-stack hospital management system built using the **MERN (MongoDB,
 ![Screenshot 2024-06-28 114013](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/76872f60-2525-4356-8d8b-68b9291e0b4a)
 ![Screenshot 2024-06-28 113956](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/aae7fdd4-d472-4f75-8196-9be71190383c)
 ![Screenshot 2024-06-28 113940](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/5d357e1e-1ea4-44d0-a87a-30bf8bdf5c30)
-![Uploading Screenshot 2024-06-28 114013.png…]()
 
+## **PATIENT INTERFACE**
+![Screenshot 2024-06-28 114340](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/0395b78f-57b7-4cca-96a2-031f61f8b3b0)
+![Screenshot 2024-06-28 114408](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/3d783441-c24a-480b-9a73-98c05801e8c3)
+![Screenshot 2024-06-28 114550](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/95abe5b3-789b-4eea-afd2-4616fcf9cfe8)
+![Screenshot 2024-06-28 114525](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/1dfd142c-58d5-494c-87cb-a2f92bc0391c)
+
+
+![Screenshot 2024-06-28 114430](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/2ccd6044-d6ba-49f6-ae1a-580ea82a79df)
+
+
+
+![Screenshot 2024-06-28 114644](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/768e2f71-0dda-4bfd-91a2-b11c5a1af58c)
+
+![Screenshot 2024-06-28 114841](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/08c18192-5c83-4a35-ac59-47ef0b98ca1f)
 
 
 
