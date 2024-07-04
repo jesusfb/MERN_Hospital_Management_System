@@ -2,8 +2,8 @@
 
 This is a full-stack hospital management system built using the MERN (MongoDB, Express.js, React, Node.js) stack. The system allows admins to manage doctors, admins, and appointments. Patients can book appointments, and doctors can manage their schedules.
 
-Features
-Admin Features:
+#Features
+#Admin Features:
 
 Add new doctors
 Add new admins
