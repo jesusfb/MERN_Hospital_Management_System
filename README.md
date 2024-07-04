@@ -28,9 +28,15 @@ This is a full-stack hospital management system built using the **MERN (MongoDB,
 - **File Storage**: Cloudinary 
 - **Email Service**: Nodemailer
 
-- **ADMIN DASHBOARD**  
+## **ADMIN DASHBOARD**  
 
 ![Screenshot 2024-06-28 113908](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/968bc8e2-3ec2-4c32-824e-40e9c03319d2)
+![Screenshot 2024-06-28 114013](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/76872f60-2525-4356-8d8b-68b9291e0b4a)
+![Screenshot 2024-06-28 113956](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/aae7fdd4-d472-4f75-8196-9be71190383c)
+![Screenshot 2024-06-28 113940](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/5d357e1e-1ea4-44d0-a87a-30bf8bdf5c30)
+![Uploading Screenshot 2024-06-28 114013.png…]()
+
+
 
 
 
