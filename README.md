@@ -27,7 +27,11 @@ This is a full-stack hospital management system built using the **MERN (MongoDB,
 - **Authentication**: JWT (JSON Web Tokens)
 - **File Storage**: Cloudinary 
 - **Email Service**: Nodemailer
-- ![Screenshot 2024-06-28 114841](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/45558d17-8e99-49f3-9fd4-77460229f09d)
+
+- **ADMIN DASHBOARD**  
+
+![Screenshot 2024-06-28 113908](https://github.com/mukulaggy/MERN_Hospital_Management_System/assets/147478470/968bc8e2-3ec2-4c32-824e-40e9c03319d2)
+
 
 
 ## **Getting Started**
