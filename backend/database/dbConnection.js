@@ -2,8 +2,8 @@ import mongoose from "mongoose";
 
 export const dbConnection = () => {
   mongoose
-    .connect("mongodb://localhost:27017/HOSPITAL_MANAGEMENT SYSTEM", {
-      dbName: "HOSPITAL_MANAGEMENT_SYSTEM",
+    .connect("mongodb+srv://aggymukul:n8AaCwleTJt4jetT@cluster0.d3r97.mongodb.net/HospitalManagementSystem", {
+      dbName: "HospitalManagementSystem",
     })
     .then(() => {
       console.log("MongoDb Connected");
