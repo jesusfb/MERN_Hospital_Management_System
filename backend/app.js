@@ -14,11 +14,12 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-     origin: ["http://localhost:5174","http://localhost:5173"],
-     method: ["GET", "POST", "DELETE", "PUT"],
-     credentials: true, 
-  })  
+    origin: ["http://localhost:5174", "http://localhost:5173"],
+    methods: ["GET", "POST", "DELETE", "PUT", "OPTIONS"],
+    credentials: true,
+  })
 );
+
 
 app.use(cookieParser());
 app.use(express.json());
