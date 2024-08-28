@@ -13,6 +13,6 @@ export const dbConnection = () => {
       console.log("MongoDb Connected");
     })
     .catch((err) => {
-      console.log("Connection to MongoDb is Unsuccessfull");
+      console.log(err);
     });
 };
