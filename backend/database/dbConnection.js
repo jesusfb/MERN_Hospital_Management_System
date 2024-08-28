@@ -1,8 +1,12 @@
 import mongoose from "mongoose";
+import dotenv from 'dotenv';
+
+dotenv.config({ path: "./config/config.env" });
+
 
 export const dbConnection = () => {
   mongoose
-    .connect("mongodb+srv://aggymukul:n8AaCwleTJt4jetT@cluster0.d3r97.mongodb.net/HospitalManagementSystem", {
+    .connect(process.env.Mongo_url, {
       dbName: "HospitalManagementSystem",
     })
     .then(() => {
