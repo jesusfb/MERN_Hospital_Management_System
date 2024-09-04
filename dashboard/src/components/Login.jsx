@@ -16,7 +16,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://mern-hospital-management-system-xhlb.onrender.com/api/v1/user/login",
+        "https://mern-hospital-management-system-xhlb.onrender.com/api/v1/user/login",
         { email, password, confirmPassword, role: "Admin" },
         {
           withCredentials: true,

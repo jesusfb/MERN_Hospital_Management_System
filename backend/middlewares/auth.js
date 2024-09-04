@@ -30,12 +30,16 @@ export const isPatientAuthenticated = catchAsyncErrors(async (req, res, next) =>
     return next(new ErrorHandler("User is not authenticated!", 401));
   }
 
-  const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
-  req.user = await User.findById(decoded.id);
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
+    req.user = await User.findById(decoded.id);
 
-  if (!req.user || req.user.role !== "Patient") {
-    return next(new ErrorHandler("Unauthorized access", 403));
+    if (!req.user || req.user.role !== "Patient") {
+      return next(new ErrorHandler("Unauthorized access", 403));
+    }
+
+    next();
+  } catch (error) {
+    return next(new ErrorHandler("Invalid token", 401));
   }
-
-  next();
 });

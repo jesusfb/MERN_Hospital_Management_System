@@ -12,11 +12,14 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { Context } from "./main";
 import Login from "./Pages/Login";
+
 const App = () => {
-  const { isAuthenticated, setIsAuthenticated, setUser } =
-    useContext(Context);
+  const { isAuthenticated, setIsAuthenticated, setUser } = useContext(Context);
 
   useEffect(() => {
+    console.log('isAuthenticated:', isAuthenticated); // Check auth status
+    console.log('Fetching user...');
+    
     const fetchUser = async () => {
       try {
         const response = await axios.get(
@@ -25,15 +28,19 @@ const App = () => {
             withCredentials: true,
           }
         );
+        console.log('User data:', response.data);
         setIsAuthenticated(true);
         setUser(response.data.user);
       } catch (error) {
+        console.error('Error fetching user:', error);
         setIsAuthenticated(false);
         setUser({});
       }
     };
+  
     fetchUser();
-  }, [isAuthenticated]);
+  }, [isAuthenticated, setIsAuthenticated, setUser]);
+  
 
   return (
     <>
