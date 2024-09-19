@@ -11,6 +11,7 @@ const Login = () => {
 
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
   const navigateTo = useNavigate(); // Use the useNavigate hook to navigate
+  setIsAuthenticated(false);
 
   const handleLogin = async (e) => {
     e.preventDefault();

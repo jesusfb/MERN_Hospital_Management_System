@@ -69,7 +69,7 @@ const Dashboard = () => {
         </div>
         <div className="secondBox">
           <p>Total Appointments</p>
-          <h3>1500</h3>
+          <h3>{`${appointments.length}`}</h3>
         </div>
         <div className="thirdBox">
           <p>Registered Doctors</p>

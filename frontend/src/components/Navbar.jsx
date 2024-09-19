@@ -10,17 +10,16 @@ const Navbar = () => {
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
 
   const handleLogout = async () => {
-    await axios
-      .get("https://mern-hospital-management-system-xhlb.onrender.com/api/v1/user/patient/logout", {
+    try {
+      const res = await axios.get("https://mern-hospital-management-system-xhlb.onrender.com/api/v1/user/patient/logout", {
         withCredentials: true,
-      })
-      .then((res) => {
-        toast.success(res.data.message);
-        setIsAuthenticated(false);
-      })
-      .catch((err) => {
-        toast.error(err.response.data.message);
       });
+      toast.success(res.data.message);  // Display success message
+      setIsAuthenticated(false);  // Update authentication state
+      window.location.href = "/login";  // Redirect to login page (optional)
+    } catch (err) {
+      toast.error(err.response?.data?.message || "Logout failed.");
+    }
   };
 
   const navigateTo = useNavigate();

@@ -29,7 +29,6 @@ const App = () => {
           }
         );
         console.log('User data:', response.data);
-        setIsAuthenticated(true);
         setUser(response.data.user);
       } catch (error) {
         console.error('Error fetching user:', error);
@@ -39,7 +38,7 @@ const App = () => {
     };
   
     fetchUser();
-  }, [isAuthenticated, setIsAuthenticated, setUser]);
+  }, [isAuthenticated]);
   
 
   return (
